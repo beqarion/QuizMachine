@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<title>Quiz App</title>
+</head>
+<body>
+	<div class="container">
+		<div class="inner-container flex-column">
+			<h1>Quiz App</h1>
+			<a href="highScores.html" type="button"><button class="btn">Highscores</button></a>
+			<form action="" class="flex-column" id="queryForm">
+				<div class="input-couple">
+					<label class="btn" for="amount">Choose Number</label>
+					<input type="number" value="10" name="amount" id="amount" class="btn">
+				</div>
+				<div class="input-couple">
+					<label class="btn" for="category">Choose Category!</label>
+					<select name="category" class="btn"autocomplete="off">
+					   <option value="any" selected disabled>Any Category</option>
+					   <option value="9">General Knowledge</option>
+					   <option value="10">Entertainment: Books</option>
+					   <option value="11">Entertainment: Film</option>
+					   <option value="12">Entertainment: Music</option>
+					   <option value="13">Entertainment: Musicals &amp; Theatres</option>
+					   <option value="14">Entertainment: Television</option>
+					   <option value="15">Entertainment: Video Games</option>
+					   <option value="16">Entertainment: Board Games</option>
+					   <option value="17">Science &amp; Nature</option>
+					   <option value="18">Science: Computers</option>
+					   <option value="19">Science: Mathematics</option>
+					   <option value="20">Mythology</option>
+					   <option value="21">Sports</option>
+					   <option value="22">Geography</option>
+					   <option value="23">History</option>
+					   <option value="24">Politics</option>
+					   <option value="25">Art</option>
+					   <option value="26">Celebrities</option>
+					   <option value="27">Animals</option>
+					   <option value="28">Vehicles</option>
+					   <option value="29">Entertainment: Comics</option>
+					   <option value="30">Science: Gadgets</option>
+					   <option value="31">Entertainment: Japanese Anime &amp; Manga</option>
+					   <option value="32">Entertainment: Cartoon &amp; Animations</option>
+					</select>
+				</div>
+				<div class="input-couple">
+					<label class="btn" for="difficulty">Choose Difficulty</label>
+					<select class="btn"name="difficulty" class="btn" id="difficulty"autocomplete="off">
+					   <option value="any"selected disabled>Any Difficulty</option>
+					   <option value="easy">Easy</option>
+					   <option value="medium">Medium</option>
+					   <option value="hard">Hard</option>
+					</select>
+				</div>
+				
+			</form>
+			<a href="quiz.html" type="button" onclick="storeUrl()"><button class="btn">Start Quiz</button></a>
+		</div>
+		
+	</div>
+	
+
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+	
+</body>
+</html>
