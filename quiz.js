@@ -99,5 +99,7 @@ replacer = (match) => {
 		return `\"`;
     } else if (match == "&amp;"){
     	return `\&`;
+    }else if (match == "&#039;"){
+		return `\'`;
     }
 }
