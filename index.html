@@ -4,21 +4,22 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Quiz App</title>
 </head>
 <body>
 	<div class="container">
 		<div class="inner-container flex-column">
 			<h1>Quiz App</h1>
-			<a href="highScores.html" type="button"><button class="btn">Highscores</button></a>
+			<a href="highScores.html" type="button"><button class="btn"><i class="fa fa-trophy"></i> Highscores <i class="fa fa-trophy"></i></button></a>
 			<form action="" class="flex-column" id="queryForm">
 				<div class="input-couple">
 					<label class="btn" for="amount">Choose Number</label>
 					<input type="number" value="10" name="amount" id="amount" class="btn">
 				</div>
 				<div class="input-couple">
-					<label class="btn" for="category">Choose Category!</label>
-					<select name="category" class="btn"autocomplete="off">
+					<label class="btn" for="category">Choose Category!</i></label>
+					<select id="category" name="category" class="btn"autocomplete="off">
 					   <option value="any" selected disabled>Any Category</option>
 					   <option value="9">General Knowledge</option>
 					   <option value="10">Entertainment: Books</option>
@@ -57,7 +58,7 @@
 				</div>
 				
 			</form>
-			<a href="quiz.html" type="button" onclick="storeUrl()"><button class="btn">Start Quiz</button></a>
+			<a href="quiz.html" type="button" onclick="storeUrl()"><button class="btn"><i class="fa fa-flag-checkered"></i> Start Quiz <i class="fa fa-flag-checkered"></i></button></a>
 		</div>
 		
 	</div>

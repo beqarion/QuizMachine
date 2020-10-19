@@ -94,10 +94,10 @@ const incrementScore = num => {
 
 replacer = (match) => {
     if (match == "&#39;"){
-        return `'`;
+        return `\'`;
     } else if (match == "&quot;"){
-		return `"`;
+		return `\"`;
     } else if (match == "&amp;"){
-    	return `&`;
+    	return `\&`;
     }
 }

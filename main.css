@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+/*font-family: 'Piazzolla', serif;*/
 /*RESETS*/
 :root {
 	background-color: #f1f1f1;
 	font-size: 62.5%;
+	font-family: 'Piazzolla', serif;
 }
 
 *,
